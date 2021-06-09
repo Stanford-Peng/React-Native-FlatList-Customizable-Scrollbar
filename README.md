@@ -33,6 +33,7 @@ Usage:
         />
  ```
  4. Effect:
+
  ![result](https://github.com/Stanford-Peng/React-Native-FlatList-Customizable-Scrollbar/blob/main/imgs/WechatIMG8.png)
  
  
