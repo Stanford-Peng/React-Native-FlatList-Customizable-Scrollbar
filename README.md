@@ -30,5 +30,6 @@ Usage:
           scrollIndicatorStyle={{backgroundColor:'#F3AD18'}}
           scrollIndicatorContainerStyle={{backgroundColor:'#E5E5E5'}}
  />```
- 
+ 4. Effect:
+ ![result](https://github.com/Stanford-Peng/React-Native-FlatList-Customizable-Scrollbar/blob/main/imgs/WechatIMG8.png)
  
