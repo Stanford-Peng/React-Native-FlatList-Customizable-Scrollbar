@@ -7,7 +7,8 @@ Usage:
 2. import it to your file:
 ```import ScrollListIndicator from '../templates/ScrollListIndicator'```
 3. use it like normal FlatList by passing data, renderItem:
-```<ScrollListIndicator
+```
+<ScrollListIndicator
           scrollViewStyle={styles.cart}
           //for flatlist style:
           style={{height:300}}
@@ -29,7 +30,8 @@ Usage:
           scrollIndicatorInsets={{ right: 5 }}
           scrollIndicatorStyle={{backgroundColor:'#F3AD18'}}
           scrollIndicatorContainerStyle={{backgroundColor:'#E5E5E5'}}
- />```
+ />
+ ```
  4. Effect:
- !(https://github.com/Stanford-Peng/React-Native-FlatList-Customizable-Scrollbar/blob/main/imgs/WechatIMG8.png)
+ ![result](https://github.com/Stanford-Peng/React-Native-FlatList-Customizable-Scrollbar/blob/main/imgs/WechatIMG8.png)
  
