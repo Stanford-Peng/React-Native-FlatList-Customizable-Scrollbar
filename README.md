@@ -38,23 +38,41 @@ Usage:
  
  
  ## Maijor Props can be used(others can be refered in the code. It is a small file):
+ 
 scrollViewStyle: customize the view style wrapping the FlatList 
+
 scrollIndicatorStyle- customize the indicator(scrollbar) style such as:
+
         position: 'absolute',
+        
         right: 0,
+        
         width: 6,
+        
         borderRadius: 3,
+        
         opacity: 1,
+        
         backgroundColor: '#F3AD18'
+        
 scrollIndicatorContainerStyle- customize the indicator container(the background slot containing the indicator bar) style such as:
+
         position: 'absolute',
+        
         top: 0,
+        
         right: 2,
+        
         bottom: 0,
+        
         overflow: 'hidden',
+        
         borderRadius: 10,
+        
         width: 6,
+        
         marginVertical: 3,
+        
         backgroundColor: '#E5E5E5'
  
  
