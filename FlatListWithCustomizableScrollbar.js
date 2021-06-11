@@ -107,7 +107,7 @@ export default ({
 
                 style={[styles.scrollViewContainer, scrollViewStyle]}
                 onContentSizeChange={(width, height) => {
-                    setFullSizeContentHeight(height);
+                    if(height>0) {setFullSizeContentHeight(height);}
                 }}
                 onLayout={e =>
                     setVisibleScrollPartHeight(e.nativeEvent.layout.height)
