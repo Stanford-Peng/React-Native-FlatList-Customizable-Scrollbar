@@ -46,15 +46,17 @@ export default ({
 
     const handleScroll = ({ contentOffset }) => {
         //Calculation scroll indicator position based on child height and scrollView view height)
-        const movePercent =
-            contentOffset.y /
-            ((fullSizeContentHeight - visibleScrollPartHeight) / 100);
-        const position =
-            ((visibleScrollPartHeight -
-                indicatorFlexibleHeight -
-                (visibleScrollPartHeight - scrollIndicatorContainerHeight)) /
-                100) *
-            movePercent;
+        const movePercent = contentOffset.y / ((fullSizeContentHeight - visibleScrollPartHeight) );
+        const position = ((scrollIndicatorContainerHeight - indicatorFlexibleHeight) ) * movePercent;
+//         const movePercent =
+//             contentOffset.y /
+//             ((fullSizeContentHeight - visibleScrollPartHeight) / 100);
+//         const position =
+//             ((visibleScrollPartHeight -
+//                 indicatorFlexibleHeight -
+//                 (visibleScrollPartHeight - scrollIndicatorContainerHeight)) /
+//                 100) *
+//             movePercent;
         setFromTop(position);
     };
 
